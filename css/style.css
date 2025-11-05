@@ -5,41 +5,37 @@
 }
 
 header{
-
     display: flex;
-    gap:  20px;
+
+    align-items: center;
+    
 }
 .menu{
     width: 20%;
+    height: 40px;
     display: flex;
-    align-items: center;
+    align-items: end;
+   
     justify-content: space-between;
     
+
+    background-color: aqua;
 }
 .conjunto{
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: relative;
-    
-
 }
 .pingo{
-    display: none;
     display: flex;
     background-color: var(--primary-color);
     width: 10px;
     height: 10px;
     border-radius: 50%;
 
-
     opacity: 0;
-    visibility: hidden;
-
 }
 
 .conjunto:hover .pingo{
     opacity: 1;
-    visibility: visible;
-    display: flex;
 }
