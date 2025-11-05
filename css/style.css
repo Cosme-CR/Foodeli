@@ -40,3 +40,9 @@ header{
 .conjunto:hover a {
     color: var(--primary-color); /* Muda a cor do link no hover */
   }
+
+
+  main{
+
+    background-color: blue;
+  }
