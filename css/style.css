@@ -43,6 +43,88 @@ header{
 
 
   main{
+    margin-top: 100px;
+    margin-left: 92px;
+    display: flex;
 
-    background-color: blue;
+  }
+  .descri{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  h1{
+    font-size: 67px;
+  }
+  p{
+    font-size: 48;
+  }
+
+  .btns{
+    display: flex;
+
+  }
+  .red{
+    color: #EB0029;
+  }
+  .txt{
+    margin-top: 80px;
+  }
+
+  .btnvermelho{
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;    /* Centraliza verticalmente */
+    width: 186px;
+    height: 68px;
+    border-radius: 40px ;
+    color: aliceblue;
+    background-color: #EB0029
+
+  }
+
+  .btnamarelo{
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;    /* Centraliza verticalmente */
+    
+    height: 68px;
+    border-radius: 40px ;
+
+  }
+
+
+
+  footer{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 92px;
+    
+  }
+  .avalia{
+    display: flex;
+    align-items: center;    /* Centraliza verticalmente */
+  }
+
+  .fts{
+    display: flex;
+  }
+  .a{
+    background-color: #EB0029;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px ;
+
+  }
+
+  .avaliacao{
+    width: 150px;
+    height: 90px;
+    border-radius: 40px ;
+    background-color: #f2c94c;
+  }
+  .ftcomi{
+    background-color: aqua;
+    width: 70px;
+    height: 60px;
+    border-radius: 40px ;
   }
